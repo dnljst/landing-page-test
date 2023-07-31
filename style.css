@@ -1,0 +1,98 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #1F2937;
+    padding: 100px;
+}
+
+.header p {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:900;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+}
+
+/* MAIN SECTION */
+
+h2 {
+    text-align: center;
+    margin: 25px;
+}
+
+.four-squares {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 100px;
+}
+
+.sq1,
+.sq2,
+.sq3,
+.sq4 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    border: solid blue 2px;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote p {
+    text-align: right;
+}
+
+/* CTA SECTION */
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 50px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #1F2937;
+    padding: 24px;
+    text-align: center;
+    color: #F9FAF8;    
+}
+
