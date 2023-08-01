@@ -8,7 +8,7 @@
 
 .hero {
     background-color: #1F2937;
-    padding: 100px;
+    padding: 50px;
 }
 
 .header p {
@@ -19,10 +19,19 @@
 .header {
     display: flex;
     justify-content:space-between;
+    margin-bottom: 75px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+
 }
 
 li {
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 h1 {
@@ -35,19 +44,35 @@ h1 {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    width: 600px;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* MAIN SECTION */
 
 h2 {
     text-align: center;
-    margin: 25px;
+    margin-top: 50px;
 }
 
 .four-squares {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
     padding: 100px;
 }
 
@@ -57,8 +82,16 @@ h2 {
 .sq4 {
     width: 100px;
     height: 100px;
-    color: white;
-    border: solid blue 2px;
+    color: black;
+    border: solid #3882F6 3px;
+    border-radius: 10px;
+}
+
+.container-square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
 }
 
 /* QUOTE SECTION */
@@ -71,6 +104,7 @@ h2 {
 .quote h2 {
     color: #1F2937;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
 }
 
@@ -83,15 +117,33 @@ h2 {
 .call-to-action {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 25px;
+    padding: 40px;
     margin: 50px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action h3 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: solid #E5E7EB 1px;
+    color: #E5E7EB;
+    padding: 3px 16px 3px 16px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 /* FOOTER SECTION */
 
 .footer {
     background-color: #1F2937;
-    padding: 24px;
+    padding: 30px;
     text-align: center;
     color: #F9FAF8;    
 }

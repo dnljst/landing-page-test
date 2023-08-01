@@ -7,32 +7,38 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <!--header display flex row-->
-    <div class="header">
-        <p>Header Logo</p>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </div>
+    <!--HERO-->
     <div class="hero">
+        <div class="header">
+            <p>Header Logo</p>
+            <ul>
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+            </ul>
+        </div>
         <!--main content-->
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
-        <div class="placeholder">this is a placeholder for an image</div>
+        <div class="hero-container">
+            <div class="left-side">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title.
+                It's a smaller font and the color is lower contrast.
+                </p>
+                <button>Sign up</button>
+            </div>
+            <div class="placeholder">this is a placeholder for an image</div>
+        </div>
     </div>
 
     <!--main part -->
     <h2>Some random information.</h2>
     <div class="four-squares">
-        <div class="sq1">1</div>
-        <div class="sq2">2</div>
-        <div class="sq3">3</div>
-        <div class="sq4">4</div>
+        <div class="container-square">
+            <div class="sq1">1</div>     
+            <div class="sq2">2</div>
+            <div class="sq3">3</div>
+            <div class="sq4">4</div>
+        </div>
     </div>
 
     <!--quote part-->
@@ -44,11 +50,12 @@
         <p>-Thor, God of Thunder</p>
     </div>
 
-
     <!--cta part-->
     <div class="call-to-action">
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="container">
+            <h3>Call to action! It's time!</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
         <button>Sign up</button>
     </div>
 
@@ -57,6 +64,5 @@
         <p>Copyright © The Odin Project 2021</p>
     </div>
     
-
 </body>
 </html>
